@@ -2,7 +2,7 @@ const fetch = require("node-fetch");
 const fs = require("fs");
 const https = require('https');
 
-const {client} = require("./secret");
+const {client} = require("./twitter");
 
 // Download everything once
 var CARD_DB = {};
