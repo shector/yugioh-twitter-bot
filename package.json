@@ -1,0 +1,29 @@
+{
+  "name": "yugioh-bot",
+  "version": "1.0.0",
+  "description": "\"Tweets a yuigoh card every 6 hours\"",
+  "main": "bot.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shector/yugioh-twitter-bot.git"
+  },
+  "keywords": [
+    "yugioh",
+    "twitter",
+    "bot"
+  ],
+  "author": "Selwyn Hector",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shector/yugioh-twitter-bot/issues"
+  },
+  "homepage": "https://github.com/shector/yugioh-twitter-bot#readme"
+}
