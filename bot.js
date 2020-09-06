@@ -2,7 +2,7 @@ const fetch = require("node-fetch");
 const fs = require("fs");
 const https = require('https');
 
-const {client} = require("./secret"); // Just my API Key starting up 'twit'
+const {client} = require("./secret");
 
 // Download everything once
 var CARD_DB = {};
